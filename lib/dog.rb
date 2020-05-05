@@ -1,14 +1,14 @@
-class Dog 
+class Dog
 
 @@all = [ ]
 
-def initialize 
-  @@all << self 
-end 
+def initialize
+  @@all << self
+end
 
-self.all 
-@@all? 
-end 
+self.all
+@@all?
+end
 
 
-end 
+end
