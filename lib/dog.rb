@@ -16,12 +16,11 @@ def self.all
 end
 
 self.clear_all
-@@all.clear  
+@@all.clear
 end
 
 def self.print_all
 @@all.each do |dogs|
-  puts dogs
     end
   end
 end
