@@ -21,7 +21,7 @@ end
 
 
 def self.print_all
-@@all.each do |dogs|
+@@all.collect do |dogs|
 
   end
 end
