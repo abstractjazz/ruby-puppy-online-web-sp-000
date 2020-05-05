@@ -20,7 +20,6 @@ self.clear_all
 end
 
 def self.print_all
-puts @@all 
+puts @@all
       end
   end
-end
