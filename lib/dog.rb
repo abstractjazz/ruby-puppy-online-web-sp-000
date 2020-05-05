@@ -6,7 +6,8 @@ def save
   @@all << self
 end
 
-def initialize
+def initialize(name)
+@name = name 
 save
 end
 
