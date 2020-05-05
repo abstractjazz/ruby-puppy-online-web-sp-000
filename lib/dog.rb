@@ -25,4 +25,4 @@ def self.print_all
   puts "#{dogs}"
   end
 end
-end
+end 
