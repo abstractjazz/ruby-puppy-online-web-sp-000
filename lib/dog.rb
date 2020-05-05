@@ -26,5 +26,4 @@ dog_array = []
 puts dog_array << dogs
   end
 end
-
 end
