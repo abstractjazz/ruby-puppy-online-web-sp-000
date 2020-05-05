@@ -23,8 +23,8 @@ end
 def self.print_all
 @@all.collect do |dogs|
 dog_array = []
-dog_array << dogs
+puts dog_array << dogs
   end
 end
-puts dog_array
+
 end
