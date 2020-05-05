@@ -3,7 +3,7 @@ class Dog
 @@all = [ ]
 
 def save
-  @@all << self  
+  @@all << self
 end
 
 def initialize
@@ -17,4 +17,7 @@ end
 def self.print_all
 @@all.each do |dogs|
   puts dogs
+  end
 end
+
+end 
