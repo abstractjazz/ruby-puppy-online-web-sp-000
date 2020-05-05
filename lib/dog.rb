@@ -3,12 +3,14 @@ class Dog
 @@all = [ ]
 
 def initialize
-  @@all << self
+save 
 end
 
-self.all
+def self.all
 @@all?
 end
 
-
+def self.print_all
+@@all.each do |dogs|
+  puts dogs
 end
