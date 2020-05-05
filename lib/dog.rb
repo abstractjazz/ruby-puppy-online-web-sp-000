@@ -2,8 +2,12 @@ class Dog
 
 @@all = [ ]
 
+def save
+  @@all<<self 
+end
+
 def initialize
-save 
+save
 end
 
 def self.all
