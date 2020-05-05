@@ -24,8 +24,7 @@ def self.print_all
 @@all.collect do |dogs|
 dog_array = []
 dog_array << dogs
-
   end
 end
-puts dog_array
+puts dog_arra
 end
