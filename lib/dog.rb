@@ -21,7 +21,7 @@ end
 
 def self.print_all
 
-  puts dogs
+  puts @@all 
       end
   end
 end
